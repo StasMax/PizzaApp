@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+            android:opacity="opaque">
+
+    <item android:drawable="@color/orange"/>
+
+    <item>
+        <bitmap
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:src="@drawable/background_splash"/>
+    </item>
+
+    <item>
+        <bitmap
+                android:gravity="center"
+                android:background="@drawable/logo_pizza_app"/>
+    </item>
+
+</layer-list>
